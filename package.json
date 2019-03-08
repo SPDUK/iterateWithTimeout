@@ -1,0 +1,16 @@
+{
+  "name": "iteratetimeout",
+  "version": "1.0.0",
+  "description": "Iterates through each item in an array with a timeout between each call",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iterate",
+    "timeout",
+    "array"
+  ],
+  "author": "https://github.com/SPDUK",
+  "license": "ISC"
+}
