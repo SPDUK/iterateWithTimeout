@@ -8,7 +8,7 @@
  * @return {Promise} Returns a promise which will resolve as a new array with the function called against each element in the input array.
  */
 function iterateWithTimeout(input, time, fn, index = 0, _result = []) {
-  if (!Array.isArray(input)) throw new Error('Invalid type to iterate over!');
+  if (!Array.isArray(input)) throw new TypeError('Invalid type to iterate over!');
 
   if (index >= input.length) {
     throw new Error(`Index of ${index} is too high for that array ${input}`);

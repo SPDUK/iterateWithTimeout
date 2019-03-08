@@ -4,7 +4,7 @@
   "description": "Iterates through each item in an array with a timeout between each call",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "iterate",
@@ -12,5 +12,8 @@
     "array"
   ],
   "author": "https://github.com/SPDUK",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.3.1"
+  }
 }
