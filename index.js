@@ -1,6 +1,6 @@
 /**
  * Iterates over each element in an array and calls a function on it with a delay between each call
- * @param  {Array} arr  An array you wish to iterate over.
+ * @param  {Array} input  An array you wish to iterate over.
  * @param  {Number} time How many miliseconds should pass between each function call.
  * @param  {Function} fn  A function to be called on each element in the array
  * @param {Number} [index] An optional index to begin the loop at, begins at 0 by default.
