@@ -1,6 +1,6 @@
 {
   "name": "iteratetimeout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Iterates through each item in an array with a timeout between each call",
   "main": "index.js",
   "scripts": {
