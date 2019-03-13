@@ -6,19 +6,23 @@ For when you want to asyncronously iterate over an array with a delay, but also 
 
 ### Example usage
 
-`npm i iteratetimeout` / `yarn add iteratetimeout`
+`npm i iteratetimeout` or `yarn add iteratetimeout`
+
 `const iterateWithTimeout = require('iteratetimeout')`
+
 `import iterateWithTimeout from 'iteratetimeout'`
 
-```
-First argument is an array which is your input array, the array you wish to iterate over.
+First argument is an array which is your input array, the array you wish to iterate over.\*\*
+
 Second argument is the timeout you wish to wait between each function call.
+
 Third argument is the function you wish to call on each item in the input array.
-Fourth (optional) argument is the index you want to start from. (default 0)
-Fifth (optional) argument is an array to start with. (default []), each element you return in the function you pass in as the third argument will be `pushed` to the end of this array.
+
+_Fourth (optional) argument is the index you want to start from. (default 0)_
+
+_Fifth (optional) argument is an array to start with. (default []), each element you return in the function you pass in as the third argument will be `pushed` to the end of this array._
 
 Returns a new array, not mutating the original (optional) passed in array if you did so.
-```
 
 #
 
