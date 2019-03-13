@@ -11,6 +11,6 @@ export default function iterateWithTimeout(
   input: array,
   time: number,
   fn: function,
-  index: number,
-  result: array
+  index?: number,
+  result?: array
 ): Promise<void>;

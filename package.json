@@ -9,7 +9,8 @@
   "keywords": [
     "iterate",
     "timeout",
-    "array"
+    "array",
+    "promise"
   ],
   "author": "https://github.com/SPDUK",
   "license": "ISC",
